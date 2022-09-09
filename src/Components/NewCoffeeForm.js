@@ -11,14 +11,14 @@ function NewCoffeeForm(props){
       roast: event.target.roast.value, 
       name: event.target.name.value, 
       id: v4(),
-      quantity: 130
+      stock: 130
     });
   }
   return (
     <React.Fragment>
       <ReusableForm
         formSubmissionHandler={handleNewCoffeeFormSubmission} 
-        buttonText="Add pound of coffee" />
+        buttonText="Add coffee to stock" />
     </React.Fragment>
   );
 }
