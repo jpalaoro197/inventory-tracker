@@ -11,8 +11,8 @@ function EditCoffeeForm(props) {
       name: event.target.name.value.charAt(0).toUpperCase() + event.target.name.value.slice(1),
       roast: event.target.roast.value.charAt(0).toUpperCase() + event.target.roast.value.slice(1),
 
-      // name: event.target.name.value,
-      // roast: event.target.roast.value,
+      name: event.target.name.value,
+      roast: event.target.roast.value,
       price: event.target.price.value,
       stock: parseInt(event.target.stock.value),
       id: selectedCoffee.id
