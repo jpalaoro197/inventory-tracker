@@ -9,11 +9,13 @@ function CoffeeList(props) { // Add props as parameter.
       <hr />
       {props.coffeeList.map((coffee, index) => // Loop through the list passed down from CoffeeControl.
         <Coffee roast={coffee.roast}
+        whenCoffeeClicked={props.onCoffeeSelection}
           name={coffee.name}
           origin={coffee.origin}
           price={coffee.price}
           stock={coffee.stock}
-          key={index} />
+          key={coffee.id}
+          id={coffee.id} />
       )}
     </React.Fragment>
   );
@@ -21,7 +23,8 @@ function CoffeeList(props) { // Add props as parameter.
 
 // Add propTypes for coffeeList.
 CoffeeList.propTypes = {
-  coffeeList: PropTypes.array
+  coffeeList: PropTypes.array,
+  onCoffeeSelection: PropTypes.func
 };
 
 export default CoffeeList;
