@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="ZGFyaC9lUgvo1bjeZQkZ" name="Page-1">
+        <mxGraphModel dx="3411" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="App" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=50;" parent="1" vertex="1">
+                    <mxGeometry x="-460" y="20" width="2200" height="1170" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Header" style="rounded=1;whiteSpace=wrap;html=1;fontSize=35;" parent="1" vertex="1">
+                    <mxGeometry x="-400" y="120" width="2080" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="CoffeeControl&lt;br style=&quot;font-size: 34px&quot;&gt;&lt;span style=&quot;font-size: 25px&quot;&gt;This componet will determine which view to show via state.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="-385" y="210" width="2050" height="920" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="CoffeeList" style="rounded=1;whiteSpace=wrap;html=1;fontSize=25;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="-260" y="360" width="320" height="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Coffee&lt;br&gt;&lt;font style=&quot;font-size: 21px&quot;&gt;clicking will show you the Coffee details&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=25;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="-201.25" y="430" width="202.5" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Add Coffee&lt;br&gt;clicking this will show newCoffeeform" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="-240.38" y="800" width="280" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="NewCoffeeForm" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="360" width="320" height="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="resuable form" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="440" width="180" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Submit&lt;br&gt;clicking will add new Sack of Coffee to list" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="239.81" y="820" width="280.38" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Coffee Details" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="350" width="320" height="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Sell coffee this button will sell one pound of coffee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="825" width="270.19" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="TBD WIP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="1250" y="325" width="320" height="630" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
