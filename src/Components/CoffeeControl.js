@@ -39,9 +39,9 @@ class CoffeeControl extends React.Component {
       formVisibleOnPage: false });
   }
 
-  handleRemoveCan = () => {
+  handleRemovePound = () => {
     const selectedCoffee = this.state.selectedCoffee;
-    const remove = Object.assign({}, selectedCoffee, {quantity: selectedCoffee.quantity - 1});
+    const remove = Object.assign({}, selectedCoffee, {stock: selectedCoffee.stock - 1});
     const editMainCoffee = this.state.mainCoffeeList
       .filter(coffee => coffee.id !== this.state.selectedCoffee.id)
       .concat(remove);
@@ -55,7 +55,7 @@ class CoffeeControl extends React.Component {
     let currentlyVisibleState = null;
     let buttonText = null; 
     if (this.state.selectedCoffee != null) {
-      currentlyVisibleState = <CoffeeDetail coffee = {this.state.selectedCoffee} removeCan = {this.handleRemoveCan}/>
+      currentlyVisibleState = <CoffeeDetail coffee = {this.state.selectedCoffee} removePound = {this.handleRemovePound}/>
       buttonText = "Return to Coffee List";
     } else if (this.state.formVisibleOnPage) {
       currentlyVisibleState = <NewCoffeeForm onNewCoffeeCreation={this.handleAddingNewCoffeeToList}  />;
