@@ -11,6 +11,7 @@ function NewCoffeeForm(props){
       name: event.target.name.value, 
       price: event.target.price.value,
       origin: event.target.origin.value, 
+      stock: event.target.stock.value,
       id: v4()
     });
     NewCoffeeForm.propTypes = {
@@ -37,6 +38,10 @@ function NewCoffeeForm(props){
           type='number'
           name='price'
           placeholder='Price Per Pound' />
+          <input
+          type='number'
+          name='stock'
+          placeholder='Pounds left' />
 
         <button type='submit'>Add New Coffee!</button>
       </form>

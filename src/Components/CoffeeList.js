@@ -12,6 +12,7 @@ function CoffeeList(props) { // Add props as parameter.
           name={coffee.name}
           origin={coffee.origin}
           price={coffee.price}
+          stock={coffee.stock}
           key={index} />
       )}
     </React.Fragment>
