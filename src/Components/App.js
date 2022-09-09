@@ -2,17 +2,12 @@ import React from "react";
 import Header from "./Header";
 import CoffeeControl from "./CoffeeControl";
 
-function App(props){
-  const appStyles = {
-    margin: '25px'
-  }
+function App(){
   return ( 
-    <div style={appStyles}>
       <React.Fragment>
         <Header />
         <CoffeeControl />
       </React.Fragment>
-    </div>
   );
 }
 
