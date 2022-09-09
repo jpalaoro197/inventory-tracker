@@ -9,31 +9,40 @@ function NewCoffeeForm(props){
     props.onNewCoffeeCreation({
       roast: event.target.roast.value, 
       name: event.target.name.value, 
+      price: event.target.price.value,
       origin: event.target.origin.value, 
       id: v4()
     });
+    NewCoffeeForm.propTypes = {
+      onNewCoffeeCreation: PropTypes.func,
+      buttonText: PropTypes.string,
+  }
   }
   return (
     <React.Fragment>
       <form onSubmit={handleNewCoffeeFormSubmission}>
         <input
           type='text'
-          name='roast'
-          placeholder='Pair Names' />
+          name='name'
+          placeholder='Coffee Name' />
         <input
           type='text'
-          name='name'
-          placeholder='Location' />
-        <textarea
+          name='roast'
+          placeholder='Roast' />
+        <input
+          type='text'
           name='origin'
-          placeholder='Describe your origin.' />
-        <button type='submit'>Help!</button>
+          placeholder='Coffee Origin' />
+        <input
+          type='number'
+          name='price'
+          placeholder='Price Per Pound' />
+
+        <button type='submit'>Add New Coffee!</button>
       </form>
     </React.Fragment>
   );
-  NewCoffeeForm.propTypes = {
-    onNewCoffeeCreation: PropTypes.func
-}
+  
 }
 
 export default NewCoffeeForm;
