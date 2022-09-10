@@ -11,6 +11,8 @@ function CoffeeList(props){
                 whenCoffeeClicked = { props.onCoffeeSelection }
                 name={coffee.name}
                 roast={coffee.roast}
+                origin={coffee.origin}
+                price={coffee.price}
                 stock={coffee.stock}
                 id={coffee.id}
                 key={coffee.id}/>

@@ -8,6 +8,8 @@ function CoffeeDetail(props){
     <React.Fragment>
         <h1>Coffee Details</h1>
         <h3>{coffee.name} - {coffee.roast}</h3>
+        <p><em>Origin: {coffee.origin}</em></p>
+        <p><em>Price:${coffee.price}.00</em></p>
         <p><em>{coffee.stock}</em></p>
         { coffee.stock > 0 ? <button id="mainBtn" onClick= {props.removePound}>Sell Pound</button> : null}
     </React.Fragment>
